@@ -11,6 +11,7 @@
 		D959E16B288B83F400963B16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959E16A288B83F400963B16 /* ContentView.swift */; };
 		D959E16D288B83F600963B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D959E16C288B83F600963B16 /* Assets.xcassets */; };
 		D959E170288B83F600963B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D959E16F288B83F600963B16 /* Preview Assets.xcassets */; };
+		D959E177288B87D700963B16 /* EmojiBounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959E176288B87D700963B16 /* EmojiBounceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D959E16A288B83F400963B16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D959E16C288B83F600963B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D959E16F288B83F600963B16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D959E176288B87D700963B16 /* EmojiBounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBounceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D959E167288B83F400963B16 /* Bouncing Emojis */ = {
 			isa = PBXGroup;
 			children = (
+				D959E176288B87D700963B16 /* EmojiBounceView.swift */,
 				D959E168288B83F400963B16 /* Bouncing_EmojisApp.swift */,
 				D959E16A288B83F400963B16 /* ContentView.swift */,
 				D959E16C288B83F600963B16 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D959E177288B87D700963B16 /* EmojiBounceView.swift in Sources */,
 				D959E16B288B83F400963B16 /* ContentView.swift in Sources */,
 				D959E169288B83F400963B16 /* Bouncing_EmojisApp.swift in Sources */,
 			);

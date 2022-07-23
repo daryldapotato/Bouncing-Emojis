@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    var emojis = ["👍", "🐔", "🤔", "🎶"]
+        
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(emojis, id: \.self) { emoji in
+                Text(emoji)
+            }
+            .navigationTitle("Emojis")
+        }
+        .navigationViewStyle(.stack)
     }
 }
 
